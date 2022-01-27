@@ -1,0 +1,11 @@
+.main_header {
+    background-color: black;
+}
+
+#sony_logo {
+    width: 80px;
+}
+
+.navbar a {
+    color: black !important;
+}
