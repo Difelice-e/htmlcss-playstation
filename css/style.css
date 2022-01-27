@@ -11,6 +11,16 @@
     color: black !important;
 }
 
+.nav-item .btn:hover {
+    background-color: gray;
+    color: white;
+    border: 1px solid grey;
+}
+
+.nav-item .nav-link:hover {
+    color: #2D64E6 !important;
+}
+
 /* JUMBOTRON */
 .jumbotron {
     background-image: url("../img/jumbo-bg.png");
@@ -39,9 +49,22 @@
 }
 
 .btn_blue {
-    background-color: #2D64E6;
+    background-color: rgb(45, 100, 230);
     color: white;
 }
+
+/* .button_hover {
+    width: max-content;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.btn:hover {
+    color: currentColor;
+}
+
+.btn_red:hover .button_hover {
+    border: 2px solid rgba(255, 255, 255, 1) !important;
+} */
 
 /* testi */
 .text_blue {
@@ -54,8 +77,14 @@
     overflow: hidden;
 }
 
-.game_wrapper:hover {
-    border: 1px solid #2D64E6;
+.game_item:hover {
+    border: 2px solid #2D64E6;
+    border-radius: 10px;
+}
+
+.game_item.game_item-active {
+    border: 2px solid #2D64E6;
+    border-radius: 10px;
 }
 
 /* ps5 hardware */
@@ -65,12 +94,12 @@
 
 .item_active {
     opacity: 1;
-    border-bottom: 1px solid #2D64E6;
+    border-bottom: 2px solid #2D64E6;
 }
 
 .hardware_item-wrapper:hover {
     opacity: 1;
-    border-bottom: 1px solid #2D64E6;
+    border-bottom: 2px solid #2D64E6;
 }
 
 .thumb_description {
