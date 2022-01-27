@@ -9,3 +9,29 @@
 .navbar a {
     color: black !important;
 }
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+}
+
+.jumbo_banner {
+    width: 60%;
+}
+
+.info_item-title {
+    font-size: calc(1.5rem + 1.5vw);
+    white-space: nowrap;
+}
+
+.info_item-description {
+    font-size: calc(0.7rem + 0.5vw);
+}
+
+.btn_red {
+    background-color: #CD3D0F;
+    color: white;
+}
