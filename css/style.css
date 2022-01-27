@@ -1,4 +1,5 @@
-.main_header {
+/* HEADER */
+.top_header {
     background-color: black;
 }
 
@@ -23,15 +24,64 @@
 }
 
 .info_item-title {
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(1.7rem + 1vw);
     white-space: nowrap;
 }
 
 .info_item-description {
-    font-size: calc(0.7rem + 0.5vw);
+    font-size: calc(0.8rem + 0.5vw);
 }
 
+/* bottoni */
 .btn_red {
     background-color: #CD3D0F;
     color: white;
+}
+
+.btn_blue {
+    background-color: #2D64E6;
+    color: white;
+}
+
+/* testi */
+.text_blue {
+    color: #1A80D3;
+}
+
+/* game_list */
+.game_wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.game_wrapper:hover {
+    border: 1px solid #2D64E6;
+}
+
+/* ps5 hardware */
+.hardware_item-wrapper {
+    opacity: 0.5;
+}
+
+.item_active {
+    opacity: 1;
+    border-bottom: 1px solid #2D64E6;
+}
+
+.hardware_item-wrapper:hover {
+    opacity: 1;
+    border-bottom: 1px solid #2D64E6;
+}
+
+.thumb_description {
+    display: none;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+@media all and (min-width:768px) {
+    .thumb_description {
+        display: block;
+    }
 }
