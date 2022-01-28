@@ -1,4 +1,8 @@
 /* HEADER */
+header {
+    display: contents;
+}
+
 .top_header {
     background-color: black;
 }
@@ -21,25 +25,41 @@
     color: #2D64E6 !important;
 }
 
+.dropdown-toggle::after{
+    border: unset;
+    content: "\2304";
+    font-weight: bold;
+}
+
 /* JUMBOTRON */
 .jumbotron {
-    background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
+    background-size: auto;
     background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+.game_returnal {
+    background-image: url("../img/jumbo-bg.png");
     height: 675px;
 }
 
+.game_it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
 .jumbo_banner {
-    width: 60%;
+    max-width: 220px;
 }
 
 .info_item-title {
-    font-size: calc(1.7rem + 1vw);
-    white-space: nowrap;
+    font-size: calc(2rem + 0.5vw);
+    font-weight: 400;
 }
 
 .info_item-description {
-    font-size: calc(0.8rem + 0.5vw);
+    font-size: calc(1rem + 0.25vw);
 }
 
 /* bottoni */
@@ -77,13 +97,17 @@
     overflow: hidden;
 }
 
+.game_item {
+    padding: 0.1rem;
+}
+
 .game_item:hover {
-    border: 2px solid #2D64E6;
+    border: 3px solid #2D64E6;
     border-radius: 10px;
 }
 
 .game_item.game_item-active {
-    border: 2px solid #2D64E6;
+    border: 3px solid #2D64E6;
     border-radius: 10px;
 }
 
@@ -108,7 +132,7 @@
     text-align: center;
 }
 
-
+/* RESPONSIVE */
 @media all and (min-width:768px) {
     .thumb_description {
         display: block;
