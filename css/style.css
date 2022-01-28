@@ -105,6 +105,15 @@ header {
     color: #5a5a5a;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* game_list */
 .game_wrapper {
     border-radius: 10px;
@@ -168,6 +177,33 @@ header {
 .ps_now {
     background-color: #161C3B;
 }
+
+/* footer */
+footer {
+    background-color: #00439C;
+}
+
+.logo_footer {
+    width: 20%;
+}
+
+footer ul li {
+    font-size: calc(0.8rem + 0.1vw);
+    padding: 5px 0;
+}
+
+footer p {
+    font-size: calc(0.8rem + 0.1vw);
+}
+
+.sony_footer-logo {
+    width: 100px;
+}
+
+.more_info {
+    text-decoration: underline;
+}
+
 /* RESPONSIVE */
 @media all and (min-width:768px) {
     .thumb_description {
