@@ -73,6 +73,16 @@ header {
     color: white;
 }
 
+.btn_light {
+    background-color: #D9DADC;
+    color: #386CE5;
+}
+
+.btn_white {
+    background-color: white;
+    color: black;
+}
+
 /* .button_hover {
     width: max-content;
     border: 2px solid rgba(255, 255, 255, 0);
@@ -89,6 +99,10 @@ header {
 /* testi */
 .text_blue {
     color: #1A80D3;
+}
+
+.text_grey {
+    color: #5a5a5a;
 }
 
 /* game_list */
@@ -132,9 +146,35 @@ header {
     text-align: center;
 }
 
+/* new_games */
+.new_games {
+    background-color: #1F1F1F;
+}
+
+/* ps_plus */
+.ps_plus {
+    background-color: #BEBCBB;
+}
+
+.ps_plus-banner {
+    display: none;
+}
+
+.ps_plus-logo {
+    width: 60%;
+}
+
+/* ps_now */
+.ps_now {
+    background-color: #161C3B;
+}
 /* RESPONSIVE */
 @media all and (min-width:768px) {
     .thumb_description {
+        display: block;
+    }
+
+    .ps_plus-banner {
         display: block;
     }
 }
