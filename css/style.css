@@ -1,113 +1,4 @@
-/* HEADER */
-header {
-    display: contents;
-}
-
-.top_header {
-    background-color: black;
-}
-
-#sony_logo {
-    width: 80px;
-}
-
-.navbar a {
-    color: black !important;
-}
-
-.nav-item .btn:hover {
-    background-color: gray;
-    color: white;
-    border: 1px solid grey;
-}
-
-.nav-item .nav-link:hover {
-    color: #2D64E6 !important;
-}
-
-.dropdown-toggle::after{
-    border: unset;
-    content: "\2304";
-    font-weight: bold;
-}
-
-.navbar .dropdown {
-    position: static;
-}
-
-.navbar .dropdown-menu{
-    width: 100%;
-    /* min-height: calc(100vh - 106px); */
-}
-
-.dropdown-item_wrapper {
-    display: inline-block;
-    width: 150px;
-    border: 2px solid transparent;
-}
-
-.dropdown-item_btm {
-    display: inline-block;
-    padding: 0 20px;
-    position: relative;
-}
-
-.dropdown_img {
-    width: 80px;
-}
-
-.dropdown-item_wrapper:hover {
-    border: 2px solid lightgray;
-    border-radius: 10px;
-    
-}
-
-.dropdown-item_wrapper:hover p, .dropdown-item_btm:hover p {
-    color: #2D64E6;
-}
-
-.dropdown-item_btm::before{
-    content: '';
-    position: absolute;
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    top: 25%;
-    left: 0;
-    background-color: #0070d1;
-}
-
-/* JUMBOTRON */
-.jumbotron {
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: black;
-    color: white;
-}
-
-.game_returnal {
-    background-image: url("../img/jumbo-bg.png");
-    height: 675px;
-}
-
-.game_it-takes-two {
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-}
-
-.jumbo_banner {
-    max-width: 220px;
-}
-
-.info_item-title {
-    font-size: calc(2rem + 0.5vw);
-    font-weight: 400;
-}
-
-.info_item-description {
-    font-size: calc(1rem + 0.25vw);
-}
-
+/* COMMON */
 /* bottoni */
 .btn_red {
     background-color: #CD3D0F;
@@ -173,6 +64,117 @@ footer a:hover {
 
 ul {
     list-style-type: none;
+}
+
+/* HEADER */
+header {
+    display: contents;
+}
+
+.top_header {
+    background-color: black;
+}
+
+#sony_logo {
+    width: 80px;
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.nav-item .btn:hover {
+    background-color: gray;
+    color: white;
+    border: 1px solid grey;
+}
+
+.nav-item .nav-link:hover {
+    color: #2D64E6 !important;
+}
+
+.dropdown-toggle::after{
+    border: unset;
+    content: "\2304";
+    font-weight: bold;
+}
+
+.navbar .dropdown {
+    position: static;
+}
+
+.navbar .dropdown-menu{
+    width: 100%;
+    /* min-height: calc(100vh - 106px); */
+    margin-top: 0;
+    border: 0;
+}
+
+.dropdown-item_wrapper {
+    display: inline-block;
+    width: 150px;
+    border: 2px solid transparent;
+}
+
+.dropdown-item_btm {
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+
+.dropdown_img {
+    width: 80px;
+}
+
+.dropdown-item_wrapper:hover {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.dropdown-item_wrapper:hover p, .dropdown-item_btm:hover p {
+    color: #2D64E6;
+}
+
+.dropdown-item_btm::before{
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    top: 25%;
+    left: 0;
+    background-color: #0070d1;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+.game_returnal {
+    background-image: url("../img/jumbo-bg.png");
+    height: 675px;
+}
+
+.game_it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.jumbo_banner {
+    max-width: 220px;
+}
+
+.info_item-title {
+    font-size: calc(2rem + 0.5vw);
+    font-weight: 400;
+}
+
+.info_item-description {
+    font-size: calc(1rem + 0.25vw);
 }
 
 /* game_list */
