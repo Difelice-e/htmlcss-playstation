@@ -66,6 +66,11 @@ ul {
     list-style-type: none;
 }
 
+.menu_icon {
+    margin: 0 20px;
+    text-align: center;
+}
+
 /* HEADER */
 header {
     display: contents;
@@ -97,6 +102,10 @@ header {
     border: unset;
     content: "\2304";
     font-weight: bold;
+}
+
+.navbar-collapse {
+    min-height: calc(100vh - 30px);
 }
 
 .navbar .dropdown {
@@ -314,5 +323,17 @@ footer p {
 
     .ps_plus-banner {
         display: block;
+    }
+}
+
+@media all and (min-width:992px) {
+    .navbar-collapse {
+        min-height: 0;
+    }
+
+    .menu_icon {
+        width: 0;
+        color: transparent;
+        margin: 0 0;
     }
 }
