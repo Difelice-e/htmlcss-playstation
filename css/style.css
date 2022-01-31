@@ -183,21 +183,26 @@ ul {
 
 .game_item {
     padding: 0.1rem;
+    transition: 200ms linear;
+    opacity: 0.7;
 }
 
 .game_item:hover {
-    border: 3px solid #2D64E6;
-    border-radius: 10px;
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px -5px black;
+    opacity: 1;
 }
 
 .game_item.game_item-active {
     border: 3px solid #2D64E6;
     border-radius: 10px;
+    opacity: 1;
 }
 
 /* ps5 hardware */
 .hardware_item-wrapper {
     opacity: 0.5;
+    transition: 200ms linear;
 }
 
 .item_active {
@@ -207,7 +212,6 @@ ul {
 
 .hardware_item-wrapper:hover {
     opacity: 1;
-    border-bottom: 2px solid #2D64E6;
 }
 
 .thumb_description {
@@ -219,6 +223,20 @@ ul {
 /* new_games */
 .new_games {
     background-color: #1F1F1F;
+}
+
+.new_game-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.new_game-wrapper img {
+    transition: 200ms linear;
+    margin-bottom: 10px;
+}
+
+.new_game-wrapper:hover img{
+    transform: scale(1.1);
 }
 
 /* ps_plus */
@@ -234,9 +252,30 @@ ul {
     width: 60%;
 }
 
+/* ps_discount */
+.ps_discount-img {
+    transition: 200ms linear;
+    border-radius: 10px;
+}
+
+.ps_discount-img:hover {
+    transform: scale(1.02);
+}
+
 /* ps_now */
 .ps_now {
     background-color: #161C3B;
+}
+
+/* social */
+.social_img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px -5px black;
+    transition: 200ms linear;
+}
+
+.social_img:hover {
+    transform: translateY(-10px);
 }
 
 /* footer */
