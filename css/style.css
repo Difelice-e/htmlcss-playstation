@@ -31,6 +31,52 @@ header {
     font-weight: bold;
 }
 
+.navbar .dropdown {
+    position: static;
+}
+
+.navbar .dropdown-menu{
+    width: 100%;
+    /* min-height: calc(100vh - 106px); */
+}
+
+.dropdown-item_wrapper {
+    display: inline-block;
+    width: 150px;
+    border: 2px solid transparent;
+}
+
+.dropdown-item_btm {
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+
+.dropdown_img {
+    width: 80px;
+}
+
+.dropdown-item_wrapper:hover {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    
+}
+
+.dropdown-item_wrapper:hover p, .dropdown-item_btm:hover p {
+    color: #2D64E6;
+}
+
+.dropdown-item_btm::before{
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    top: 25%;
+    left: 0;
+    background-color: #0070d1;
+}
+
 /* JUMBOTRON */
 .jumbotron {
     background-size: auto;
